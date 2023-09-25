@@ -1,0 +1,262 @@
+.App-s {
+    height: 2400px;
+    width: 100%;
+}
+.content2 {
+    display: flex;  
+    justify-content: space-between;  
+    align-items: center;  
+    padding: 85px 60px 10px 60px;  
+}
+
+.left-content2 {
+    flex: 1; 
+    padding-right: 20px;  
+}
+
+.right-content2 {
+    flex: 1;
+    padding: 60px 0px 60px 150px;  
+}
+
+    .right-content2 p {
+        font-size: 1.25rem;
+        font-family: 'Inter', sans-serif;
+        color: dimgrey;
+        text-align:justify;
+    }
+
+    .topic2 {
+        font-size:3rem;
+        margin-top: 40px;
+        margin-bottom: 10px;
+        font-family: 'Inter', sans-serif;
+        font-weight: bold;
+    }
+
+.content-paragraph2 {
+    margin-bottom: 10px;
+    font-size: 1.15rem;
+    color: black;
+    font-family: 'Inter', sans-serif;
+}
+
+
+.leftImage1 {
+    max-width:20%;
+    position:absolute;
+    top: 170px;
+    left: 850px;
+}
+
+.octagon-shape-clip-5 {
+    max-width: 20%;
+}
+
+.blue-text {
+    color: #0074d9;
+    font-family: 'Inter', sans-serif;
+}
+
+
+
+.content3-s {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 100px 70px 100px;
+    background: #C3D4FF;
+    position:absolute;
+    top: 1400px;
+}
+
+.left-content3 {
+   /* align-items: center;
+    padding: 10px 50px;
+    position: relative;*/
+}
+
+.overlapimage {
+    height: 310px;
+    position: absolute;
+    padding-top: 8px;
+    left: 53px;
+}
+
+.right-content3 {
+    flex: 1;
+    padding: 60px 80px 60px 40px;
+}
+
+
+.btn-services {
+    display: inline-block;
+    padding: 15px 10px;
+    background-color: #0074d9;
+    color: white;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease, box-shadow 0.2s ease;
+    margin-top: 9px;
+    left: 0;
+    font-size: 15px;
+    height: 50px;
+    width: 150px;
+}
+
+    .btn-services:hover {
+        background-color: #66ccff;
+        transform: translateY(3px);
+        box-shadow: 0 6px 10px rgba(0, 0, 0, 0.1);
+    }
+
+.octagon-shape-clip-6 {
+    max-width: 75%;
+    
+}
+
+
+.content5 {
+    align-items: center;
+    padding: 20px 60px 300px 200px;
+    height: 500px;
+}
+
+
+
+.topic3-s {
+    font-size: 3rem;
+    margin-bottom: 10px;
+    font-family: 'Inter', sans-serif;
+    font-weight: bold;
+    text-align: left;
+    position:absolute;
+    top: 2100px;
+}
+
+.testomonials-s {
+    font-size: 1.15rem;
+    word-spacing: 4px;
+    color: #696969;
+    font-family: 'Inter', sans-serif;
+    text-align: left;
+    position: absolute;
+    top: 2150px;
+    padding-right: 300px;
+    text-align:justify;
+}
+
+
+.rec-1 {
+    background-color: #213468e8;
+    height: 217px;
+    left: 250px;
+    top: 2580px;
+    width: 304px;
+    position: absolute;
+}
+
+.rec-2 {
+    background-color: #213468e8;
+    height: 217px;
+    left: 610px;
+    top:2580px;
+    width: 304px;
+    position: absolute;
+}
+
+.rec-3 {
+    background-color: #213468e8;
+    height: 217px;
+    left: 970px;
+    top: 2580px;
+    width: 304px;
+    position: absolute;
+}
+
+.test-img1,
+.test-img2,
+.test-img3 {
+    height: 300px;
+    width: 300px;
+    position: absolute;
+    border: 7px solid white;
+    transition: transform 0.3s ease;
+}
+
+    .test-img1:hover,
+    .test-img2:hover,
+    .test-img3:hover {
+        transform: scale(1.1);
+    }
+
+
+.test-img1 {
+    left: 248px;
+    top: 2280px;
+}
+
+.test-img2 {
+    left: 608px;
+    top: 2280px;
+}
+
+.test-img3 {
+    left: 965px;
+    top: 2280px;
+}
+
+.rec1-s {
+    padding: 40px 20px 30px 20px;
+    color: white;
+    font-family: 'Inter', sans-serif;
+    font-display: auto;
+    font-size: 0.8rem;
+    text-align: justify;
+}
+
+.content-paragraph1 {
+    font-size: 18px;
+    font-family: 'Inter', sans-serif;
+}
+
+.head-product {
+    font-size: 3rem;
+}
+
+
+.content6-s {
+    padding: 100px 0px 100px;
+    max-height: 2000px;
+    position:absolute;
+    top:1800px;
+}
+
+.rectangle-s {
+    background: white;
+    height: 400px;
+    padding-top: 100px;
+}
+
+.head-contact-s {
+    font-size: 3rem;
+    padding: 20px 10px;
+    text-align: center;
+    margin: 0;
+}
+
+.contact-para {
+    margin: 20px 20px;
+}
+
+.blue-button-con {
+    padding: 20px 50px;
+    margin-left: 120px;
+}
+
+    .blue-button-con:hover {
+        transform: scale(1.05);
+    }
+
+ 

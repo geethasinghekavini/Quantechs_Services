@@ -1,0 +1,369 @@
+.App-c{
+    height: 760px;
+}
+
+.topic2-c {
+    font-size: 3.5rem;
+    margin-bottom: 10px;
+    font-family: 'Inter', sans-serif;
+    font-weight: bold;
+    padding-left: 50px;
+    padding-top: 75px;
+    padding-bottom: 10px;
+}
+
+.blue-text-c {
+    color: #0074d9;
+    font-family: 'Inter', sans-serif;
+}
+
+.rectangle-c {
+    background-color: #c3d3ff;
+    border: 1px solid;
+    border-color: #f3f3f3;
+    height:600px;
+}
+
+.topic3-c {
+    font-size: 2rem;
+    margin-bottom: 10px;
+    font-family: 'Inter', sans-serif;
+    font-weight: bold;
+    padding-left: 50px;
+    padding-top: 0px;
+    padding-bottom: 60px;
+    position: absolute;
+    top:180px;
+    left: 50px;
+}
+
+.p1-c {
+    position: absolute;
+    top: 210px;
+    left: 110px;
+}
+
+.p2-c {
+    position: absolute;
+    top: 240px;
+    left: 110px;
+}
+
+.p1-c, .p2-c {
+    font-family: 'Inter', sans-serif;
+    font-weight: bold;
+}
+
+
+.img-0-c {
+    height: 60px;
+    left: 750px;
+    object-fit: cover;
+    position: absolute;
+    top: 20px;
+    width: 60px;
+}
+
+.img-1-c {
+    height: 60px;
+    left: 750px;
+    object-fit: cover;
+    position: absolute;
+    top: 170px;
+    width: 60px;
+}
+
+.img-2-c {
+    height: 60px;
+    left: 750px;
+    object-fit: cover;
+    position: absolute;
+    top: 280px;
+    width: 60px;
+}
+
+.img-0-c, .img-1-c, .img-2-c {
+    transition: transform 0.3s ease-in-out;
+}
+
+    .img-0-c:hover, .img-1-c:hover, .img-2-c:hover {
+        transform: scale(1.2);
+    }
+
+.txt--ch-c {
+    position: absolute;
+    top: 20px;
+    left: 850px;
+    width: 100%;
+}
+
+.span-0-c {
+    position: absolute;
+    top: 50px;
+    left: 850px;
+    width: 100%;
+}
+
+.txt--ch1-c {
+    position: absolute;
+    top: 170px;
+    left: 850px;
+    width: 100%;
+}
+
+.span-1-c {
+    position: absolute;
+    top: 200px;
+    left: 850px;
+    width: 100%;
+}
+
+.txt--ch2-c {
+    position: absolute;
+    top: 280px;
+    left: 850px;
+    width: 100%;
+}
+
+.span-2-c {
+    position: absolute;
+    top: 310px;
+    left: 850px;
+    width: 100%;
+}
+
+.txt--ch-c, .txt--ch1-c, .txt--ch2-c {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: darkblue;
+}
+
+.span-0-c, .span-1-c, .span-2-c {
+    font-size: 1rem;
+}
+
+/*form*/
+.form-container {
+    width: 380px;  
+    height: 380px;
+    margin: 10px auto; 
+    padding: 20px;
+    background-color: #91C8E4;
+    border-radius: 10px;  
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);  
+    position: absolute;
+    left: 140px;
+    top: 290px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-family: 'Inter', sans-serif;
+    font-size: 1.2rem;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 90%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-family: 'Inter', sans-serif;
+    font-size: 1rem;
+    font-weight:200;
+}
+
+    textarea{
+        height: 80px;
+    }
+
+input[type="submit"] {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 40px;
+    border-radius: 15px;
+    cursor: pointer;
+    position: absolute;
+    left: 100px;
+    top: 350px;
+    font-family: 'Inter', sans-serif;
+    font-size: 1.2rem;
+}
+ 
+    input[type="submit"]:hover {
+        background-color: #279EFF;
+    }
+
+
+
+
+@media (max-width: 768px) and (max-width: 1024px) and (max-width: 1200px) {
+
+    .navbar-container {
+        padding: 10px 5%;
+    }
+
+    .navbar li {
+        font-size: 12px;
+        margin-right: 5px;
+    }
+
+    .topic2-c, .topic3-c {
+        font-size: 2.5rem;
+        padding: 30px 0px;
+        text-align: center;
+    }
+
+
+    .rectangle-c {
+        position: relative;
+        top: 350px;
+        height: 700px;
+    }
+
+    .p1-c {
+        font-size: 14px;
+        text-align: center;
+        padding: 20px 50px 10px 5px;
+    }
+
+    .p2-c {
+        font-size: 14px;
+        text-align: center;
+        padding: 60px 50px 10px 5px;
+    }
+
+    .img-0-c {
+        left: 50%;
+        transform: translateX(-50%);
+        top: 600px;
+    }
+
+    .img-1-c {
+        left: 50%;
+        transform: translateX(-50%);
+        top: 900px;
+    }
+
+    .img-2-c {
+        left: 50%;
+        transform: translateX(-50%);
+        top: 1060px;
+    }
+
+    .txt--ch-c, .span-0-c, .txt--ch1-c, .span-1-c, .txt--ch2-c, .span-2-c {
+        left: 50%;
+        transform: translateX(-50%);
+        text-align: center;
+    }
+
+    .txt--ch-c {
+        padding: 100px 0px;
+    }
+
+    .span-0-c {
+        padding: 120px 10px;
+    }
+
+    .txt--ch1-c {
+        padding: 230px 120px;
+    }
+
+    .span-1-c {
+        padding: 215px 10px;
+    }
+
+    .txt--ch2-c {
+        padding: 230px 10px;
+    }
+
+    .span-2-c {
+        padding: 220px 10px;
+    }
+
+    .footer-c {
+        padding: 10px 20px;
+        height: auto;
+        position: relative;
+        top: 400px;
+        left: 0px;
+    }
+
+    .text-wrapper-cu-c,
+    .txt-ch-c,
+    .txt-ch1-c,
+    .txt-ch2-c {
+        left: 0px;
+        width: auto;
+        text-align: left;
+    }
+
+    .image0-c,
+    .image1-c,
+    .image2-c,
+    .sm1-c,
+    .sm2-c {
+        left: 20px;
+        top: auto;
+    }
+
+    .footer-para-c {
+        font-size: 12px;  
+    }
+
+    .txt-why-c,
+    .foot1-c,
+    .foot2-c,
+    .foot3-c {
+        font-size: 12px;  
+        margin: 5px 0px;
+    }
+
+    .text-wrapper-cu-c,
+    .txt-ch-c,
+    .txt-ch1-c,
+    .txt-ch2-c {
+        left: 20px;
+        width: auto;
+        text-align: left;
+    }
+
+    .span-c,
+    .span1-c,
+    .span2-c {
+        left: 20px;
+        width: auto;
+        text-align: left;
+    }
+
+    .sm1-c,
+    .sm2-c {
+        left: 10px;
+        position: relative;
+        top: 320px;
+    }
+
+    .image0-c,
+    .image1-c,
+    .image2-c {
+        display: none;
+    }
+
+    /* Add these styles to your CSS file */
+
+    .success-message {
+        background-color: #4CAF50; /* Green background color */
+        color: white; /* Text color */
+        padding: 10px 20px; /* Padding around the message */
+        border-radius: 5px; /* Rounded corners */
+        position: absolute;
+        top: 10px; /* Adjust the top position as needed */
+        right: 10px; /* Adjust the right position as needed */
+        z-index: 999; /* Ensure it appears above other elements */
+    }
+
+}

@@ -1,0 +1,492 @@
+.team {
+    height: 4100px;
+    width: 100%;
+}
+ 
+.container-t {
+    position: relative;
+}
+
+.circle1-t, .circle2-t {
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    position: absolute;
+}
+
+.circle1-t {
+    background: lightblue;
+    top: 150px;
+    left: 460px;
+}
+
+.circle2-t {
+    background: #4477CE;
+    top: 150px;
+    left: 840px;
+}
+
+.headimage1-t, .headimage2-t, .headimage3-t {
+    width: 250px;
+    height: 250px;
+    position: absolute;
+    object-fit: cover;
+}
+
+.headimage3-t {
+    top: 150px;
+    left: 640px;
+}
+
+.headimage1-t {
+    top: 300px;
+    left: 320px;
+}
+
+.headimage2-t {
+    top: 300px;
+    left: 1000px;
+}
+
+.content-1-t {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 85px 60px 60px 60px;
+    position: absolute;
+    top: 500px;
+}
+
+.right-content-t p {
+    font-size: 1.25rem;
+    font-family: 'Inter', sans-serif;
+    color: dimgrey;
+    padding: 0px 50px;
+}
+
+ 
+.right-content-t {
+    flex: 1;
+    padding: 60px 0px 100px 50px;
+    text-align: center;
+}
+
+.topic-1-t {
+    font-size: 3.5rem;
+    margin-bottom: 10px;
+    font-family: 'Inter', sans-serif;
+    font-weight: bold;
+    padding-bottom: 20px;
+}
+
+.blue-text-t {
+    color: #0074d9;
+    font-family: 'Inter', sans-serif;
+}
+
+
+.blue-text1-t {
+    color: #01268C;
+    font-family: 'Inter', sans-serif;
+}
+
+
+.content-2-t {
+    display: flex;
+    position: absolute;
+    top: 1000px;
+    justify-content: space-between;
+    align-items: center;
+    padding: 200px 60px 140px 60px;
+    background: #A1C2F1;
+}
+
+
+.right-content-2-t {
+    flex: 1;
+    padding: 0px 0px 60px 150px;  
+}
+
+.topic-2-t {
+    font-size: 3rem;
+    margin-bottom: 10px;
+    font-family: 'Inter', sans-serif;
+    font-weight: bold;
+    padding: 5px;
+    
+}
+
+.right-content-2-t p {
+    margin-bottom: 12px;
+    color: black;
+    font-family: 'Inter', sans-serif;
+    font-size: 1.15rem;
+}
+
+
+.leftimage-1-t {
+    max-width: 300px;
+    top: 120px;
+    position: absolute;
+    left: 850px;
+}
+
+.leftimage-2-t {
+    width: 300px;
+    top: 220px;
+    position: absolute;
+    left: 980px;
+}
+
+.topic-3t {
+    font-size: 4rem;
+    margin-bottom: 10px;
+    color:darkblue;
+    font-family: 'Inter', sans-serif;
+    font-weight: bold;
+    padding-bottom: 20px;
+    position: absolute;
+    top: 1700px;
+    left: 445px;
+}
+
+.row1t, .row2t {
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    left: 410px;
+}
+
+.row1t {
+    top: 1800px;
+}
+
+.row2t {
+    top: 2130px;
+}
+
+
+
+
+.content3-t {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px 100px 70px 100px;
+    background: #C3D4FF;
+    position:absolute;
+    top:2550px;
+}
+
+.left-content3 {
+    /* align-items: center;
+    padding: 10px 50px;
+    position: relative;*/
+}
+
+.overlapimage {
+    height: 350px;
+    position: absolute;
+    padding-top: 8px;
+    left:103px;
+    top: 100px;
+}
+
+.right-content3 {
+    flex: 1;
+    padding: 150px 80px 60px 40px;
+     
+}
+
+.head-product {
+    font-size: 3rem;
+    font-family: 'Inter', sans-serif;
+}
+
+.right-content3 p {
+    font-size: 1.15rem;
+    font-family: 'Inter', sans-serif;
+}
+
+
+.btn-team {
+    display: inline-block;
+    padding: 15px 10px;
+    background-color: #0074d9;
+    color: white;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease, box-shadow 0.2s ease;
+    margin-top: 9px;
+    left: 0;
+    font-size: 15px;
+    height: 50px;
+    width: 150px;
+}
+
+    .btn-team:hover {
+        background-color: #66ccff;
+        transform: translateY(3px);
+        box-shadow: 0 6px 10px rgba(0, 0, 0, 0.1);
+    }
+
+.octagon-shape-clip-6 {
+    max-width: 75%;
+}
+
+
+.team-topic-t {
+    position: absolute;
+    top: 3100px;
+    left: 60px;
+    font-size: 2.5rem;
+    font-weight: bold;
+    padding: 100px 300px 0px 50px;
+    font-family: 'Inter', sans-serif;
+}
+
+.teampics-t p {
+    position: absolute;
+    top: 3200px;
+    left: 60px;
+    font-size: 1.15rem;
+    padding: 50px 200px 100px 50px;
+    font-family: 'Inter', sans-serif;
+    color: dimgrey;
+}
+
+.teamimage1-t, .teamimage2-t, .teamimage3-t, .teamimage4-t, .teamimage5-t {
+    width:300px;
+    height: 300px;
+}
+
+.teamimage1-t {
+    top: 3350px;
+    left: 350px;
+    position: absolute;
+}
+
+.teamimage2-t {
+    top: 3350px;
+    left: 850px;
+    position: absolute;
+}
+
+.teamimage3-t {
+    top: 3550px;
+    left: 600px;
+    position: absolute;
+}
+
+.teamimage4-t {
+    top: 3750px;
+    left: 350px;
+    position: absolute;
+}
+
+.teamimage5-t {
+    top: 3750px;
+    left: 850px;
+    position: absolute;
+}
+
+.empowering-staff {
+    color: darkblue;
+}
+
+
+@media (max-width: 768px) {
+    .navbar-container {
+        flex-direction: column;
+        padding: 10px;
+        align-items: flex-start;
+    }
+
+    .navbar ul {
+        margin: 10px 0;
+    }
+
+    .navbar li {
+        font-size: 12px;
+        margin-right: 20px;
+        margin-left: 0;
+    }
+
+    .App .overlap {
+        left: auto;
+        right: 10px;
+        top: 10px;
+    }
+
+    .circle1-t, .circle2-t, .headimage1-t, .headimage2-t, .headimage3-t {
+        width: 100px;
+        height: 100px;
+    }
+
+    .circle1-t {
+        top: 140px;
+        left: 110px;
+    }
+
+    .circle2-t {
+        top: 140px;
+        left: 250px;
+    }
+
+    .headimage1-t {
+        top: 200px;
+        left: 70px;
+    }
+
+    .headimage2-t {
+        top: 200px;
+        left: 300px;
+    }
+
+    .headimage3-t {
+        top: 110px;
+        left: 175px;
+    }
+
+    .content-1-t {
+        flex-direction: column;
+        padding: 60px 30px;
+        text-align: center;
+        position: relative;
+        top: 270px;
+    }
+
+    .right-content1-t {
+        padding: 150px 0;
+    }
+
+    .left-image-t {
+        max-width: 50%;
+    }
+
+    .octagon-shape-clip-4-t {
+        max-width: 50%;
+    }
+
+    .topic-1-t {
+        font-size: 2rem;
+        padding-bottom: 10px;
+    }
+
+    .content-2-t {
+        flex-direction: column;
+        padding: 100px 20px;
+        top: 900px;
+    }
+
+    .right-content-2-t {
+        padding: 20px;
+        text-align: center;
+    }
+
+    .right-content-2-t p {
+        color:dimgrey;
+        text-align:justify;
+    }
+
+
+        .leftimage-2-t {
+            position: static;
+            width: 100%;
+            max-width: 500px;
+            margin: 20px auto;
+        }
+ 
+    /*.row1t, .row2t {
+        display: flex;
+        flex-direction: row;
+        position: absolute;
+        left: 410px;
+    }
+
+    .row1t {
+        top: 1800px;
+    }
+
+    .row2t {
+        top: 2060px;
+    }
+*/
+    .content1-t {
+        flex-direction: column;
+        padding: 40px 20px;
+        top: 2900px;
+    }
+
+    .btn-services-t {
+        margin-top: 20px;
+        width: 60%;
+    }
+
+    .team-topic-t,
+    .teampics-t p {
+        position: relative;
+        padding: 0px 20px;
+        text-align: center;
+        left: auto;
+        top: 3200px;
+    }
+
+    .team-topic-t {
+        font-size: 2rem;
+    }
+
+    .teampics-t p {
+        padding: 20px;
+        font-size: 0.9rem;
+    }
+
+    .teamimage1-t {
+        position: absolute;
+        width: 50%;
+        margin: 0px auto;
+        top: 4090px;
+        left: 50px;
+    }
+
+    .teamimage2-t {
+        position: absolute;
+        width: 50%;
+        margin: 0px auto;
+        top: 4350px;
+        left: 200px;
+    }
+
+    .teamimage3-t {
+        position: absolute;
+        width: 50%;
+        margin: 0px auto;
+        top: 4700px;
+        left: 50px;
+    }
+
+
+    .teamimage4-t {
+        position: absolute;
+        width: 50%;
+        /* max-width: 100px;*/
+        margin: 0px auto;
+        top: 5000px;
+        left: 200px;
+    }
+
+    .teamimage5-t {
+        position: absolute;
+        width: 50%;
+        /* max-width: 100px;*/
+        margin: 0px auto;
+        top: 5300px;
+        left: 50px;
+    }
+
+
+ 
+}
+
+ 

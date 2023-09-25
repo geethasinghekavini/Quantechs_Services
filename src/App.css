@@ -1,0 +1,397 @@
+.App-header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 98%;
+    background-color: white;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+    z-index: 1000;
+}
+
+.navbar-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 10px 25px;
+    background-color: white;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+    z-index: 1000;
+}
+
+.logo img {
+    height: auto;
+    max-height: 40px;
+    max-width: 100%;
+}
+
+.button button {
+    background-color: blue;
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-left: 10px;
+}
+
+.navbar ul {
+    list-style-type: none;
+    margin: 10px;
+    padding: 0;
+    display: flex;
+    align-items: center;
+     }
+
+.navbar li {
+    font-size: 14px;
+    font-weight: bold;
+    margin-right: 60px;  
+    margin-left: 15px; 
+}
+
+    .navbar li a {
+        text-decoration: none;
+        color: inherit; /* Use the default text color */
+    }
+     
+        .navbar li a:visited {
+            color: #000080;  
+        }
+
+.blue-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #0074d9;
+    color: white;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    text-decoration: none;
+}
+
+   .blue-button a {
+    text-decoration: none;
+    color: inherit; /* Use the default text color */
+    }
+
+    .blue-button:visited {
+        color: #000080;  
+    }
+
+     .blue-button:hover {
+       background-color: #66ccff;
+     }
+
+    .blue-button1 {
+    display: inline-block;
+    padding: 18px 55px;
+    background-color: #0074d9;
+    color: white;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease, box-shadow 0.2s ease;
+    margin-top: 9px;
+    left: 0;
+    font-size: 20px;
+    }
+
+    .blue-button1:hover {
+        background-color: #66ccff;
+        transform: translateY(3px);
+        box-shadow: 0 6px 10px rgba(0, 0, 0, 0.1);
+    }
+ 
+   .overlap-group {
+    height: 322px;
+    left: 67px;
+    position: absolute;
+    top: 100px;
+    width: 595px;
+   }
+
+/*footer*/
+.footer {
+    border: 1px solid;
+    border-color: #fffbfb;
+    height: 300px;
+    position: relative;
+    padding: 10px 500px;
+}
+
+.image-logo{
+    height:50px;
+    width: 200px;
+    position: absolute;
+    left: 200px;
+    top: 40px;
+}
+
+.footer .footer-para {
+    color: #01268c;
+    font-family: 'Inter', sans-serif;
+    font-size: 13px;
+    font-weight: 400;
+    left: 200px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 70px;
+    width: 300px;
+}
+
+/*.txt-why {
+    color: #00268c;
+    font-family: 'Inter', sans-serif;
+    font-size: 15px;
+    font-weight: 600;
+    left: 200px;
+    position: absolute;
+    top: 250px;
+    width: 300px;
+}
+
+.foot1 {
+    color: #000000;
+    font-family: 'Inter', sans-serif;
+    font-size: 10px;
+    font-weight: 400;
+    letter-spacing: 0;
+    top: 300px;
+    position: absolute;
+    left: 200px;
+}
+
+.foot2 {
+    color: #000000;
+    font-family: 'Inter', sans-serif;
+    font-size: 10px;
+    font-weight: 400;
+    letter-spacing: 0;
+    top: 320px;
+    position: absolute;
+    left: 200px;
+}
+.foot3 {
+    color: #000000;
+    font-family: 'Inter', sans-serif;
+    font-size: 10px;
+    font-weight: 400;
+    letter-spacing: 0;
+    top: 340px;
+    position: absolute;
+    left: 200px;
+}
+*/
+
+.text-wrapper-cu {
+    color: #01268ce8;
+    font-family: "Inter-SemiBold", Helvetica;
+    font-size: 24px;
+    font-weight: 600;
+    left: 880px;
+    position: absolute;
+    top: 40px;
+}
+
+ 
+
+.txt-ch {
+    color: #01268ce8;
+    font-weight: 700;
+    left: 950px;
+    position: absolute;
+    top: 110px;
+}
+
+.span {
+    color: #000000;
+    font-family: "Inter-Regular", Helvetica;
+    font-size: 10px;
+    left: 950px;
+    position: absolute;
+    top:80px;
+}
+
+.txt-ch1 {
+    color: #01268ce8;
+    font-weight: 700;
+    left: 950px;
+    position: absolute;
+    top: 200px;
+}
+
+.span1 {
+    font-family: "Inter-Regular", Helvetica;
+    font-size: 10px;
+    left: 950px;
+    position: absolute;
+    top: 140px;
+}
+
+.txt-ch2 {
+    color: #01268ce8;
+    font-weight: 700;
+    left: 950px;
+    position: absolute;
+    top: 260px;
+}
+
+.span2 {
+    font-family: "Inter-Regular", Helvetica;
+    font-size: 10px;
+    left: 950px;
+    position: absolute;
+    top: 190px;
+}
+ 
+ 
+.img0 {
+    height: 40px;
+    left: 880px;
+    object-fit: cover;
+    position: absolute;
+    top: 80px;
+    width: 40px;
+}
+
+.img1 {
+    height: 40px;
+    left: 880px;
+    object-fit: cover;
+    position: absolute;
+    top: 130px;
+    width: 40px;
+}
+
+.img2 {
+    height: 40px;
+    left: 880px;
+    object-fit: cover;
+    position: absolute;
+    top: 180px;
+    width: 40px;
+}
+
+.img0, .img1, img2 {
+    transition: transform 0.3s ease-in-out;
+}
+
+.sm1, .sm2 {
+    height: 50px;
+    width: 50px;
+    position: absolute;
+    object-fit: cover;
+    transition: transform 0.3s ease-in-out;  
+}
+
+.sm1 {
+    left: 200px;
+    top: 210px;
+}
+
+.sm2 {
+    left: 280px;
+    top: 210px;
+}
+
+     
+.sm1:hover, .sm2:hover {
+    transform: scale(1.2);  
+ }
+
+.image-logo{
+    height: 30px;
+    width:157.5px;
+}
+
+.img0:hover, .img1:hover, .img2:hover {
+    transform: scale(1.2);
+}
+
+.foot-txt{
+    font-size: 0.9rem;
+    color:lightslategrey;
+    position:absolute;
+    top:280px;
+    left :500px;
+}
+
+@media (max-width: 768px) {
+    .navbar-container {
+        flex-direction: column;
+        padding: 10px;
+        align-items: flex-start;
+    }
+
+    .navbar ul {
+        margin: 10px 0;
+    }
+
+    .navbar li {
+        font-size: 12px;
+        margin-right: 20px;
+        margin-left: 0;
+    }
+
+    .App .overlap {
+        left: auto;
+        right: 10px;
+        top: 10px;
+    }
+
+    .content-container {
+        flex-direction: column;
+        padding: 20px; 
+        position:absolute;
+        top: 100px;
+    }
+
+    .left-content {
+        flex: 1;  
+    }
+
+    .right-content {
+        flex: 1;  
+    }
+
+    .elevating-text{
+       font-size: 2rem;
+       padding: 10px;
+    }
+
+    .content-paragraph {
+        font-size: 1rem;
+    }
+
+    .blue-button1 {
+        padding: 6px 42px;
+    }
+
+    .App .imgonline-com-ua,
+    .App .imgonline-com-ua-2,
+    .App .imgonline-com-ua-3,
+    .App .octagon-shape-clip,
+    .App .octagon-shape-clip-2,
+    .App .octagon-shape-clip-3 {
+        position: relative;  
+        left: auto;  
+        top: auto;  
+        width: 100%; 
+        max-width: none;  
+        height: auto;  
+    }
+
+    .content-container {
+        padding: 20px; 
+    }
+ 
+
+}
+
+
+
