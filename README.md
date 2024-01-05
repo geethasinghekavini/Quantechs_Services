@@ -12,7 +12,8 @@ Employing CSS is crucial for achieving a visually appealing and user-friendly de
 
 In summary, the use of React facilitates a robust and modular website structure, EmailJS streamlines communication channels, and CSS ensures an aesthetically pleasing and responsive design. Combining these technologies results in a well-designed and efficiently developed website for Quantech.
 
- 
+ ![image](https://github.com/geethasinghekavini/Quantechs_Services/assets/101565899/ab98979e-b4eb-4219-9247-aeeb0411ceb0)
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
